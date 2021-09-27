@@ -1,0 +1,141 @@
+@media (min-width: 300px){
+    .navbar {
+        padding-left:20px;
+        padding-right: 20px;
+      
+        }
+     #home {
+         height:1000px;
+     }  
+     .jumbotron {
+         height:1000px;
+     } 
+     .jcol {
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+
+     .footcolone {
+         text-align: center!important;
+         padding-bottom:30px ;
+         padding-right: auto;
+     }
+     .footcoltwo {
+         text-align: center!important;
+         padding-bottom:30px;
+        padding-left: 30px;
+
+     }
+     .sbar {
+         font-size: 20px;
+     }
+
+     .teamcard {
+        margin:30px auto 30px auto;
+        border-radius: "5%";
+        width:18rem;
+     }
+
+
+
+} @media (min-width: 576px) {
+    .navbar {
+        padding-left:20px;
+        padding-right:40px;
+        
+        }
+     #home {
+         height:1000px;
+     }  
+     .jumbotron {
+         height:1000px;
+     } 
+     .jcol {
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+
+     .footcolone {
+         text-align: center!important;
+         padding-bottom:30px ;
+         padding-right: auto;
+     }
+     .footcoltwo {
+         text-align: center!important;
+         padding-bottom:30px;
+        padding-left: 30px;
+
+     }
+     .sbar {
+         font-size: 20px;
+     }
+
+    .teamcard {
+       margin:30px auto 30px auto;
+       border-radius: "5%";
+       width:18rem;
+    }
+
+
+
+
+}
+@media (min-width: 768px) {
+    .jcol {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (min-width: 992px){
+    .jcol {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    navbar {
+      
+        z-index: 999!important;
+        }
+    
+}
+@media (min-width: 1200px) {
+    .jcol {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+
+    .navbar {
+        padding-left:200px;
+        padding-right: 200px;
+        position:fixed;
+        width: 100%;
+        z-index: 999!important;
+        }
+     #home {
+         height:600px;
+     }  
+     .jumbotran {
+         height:600px;
+     } 
+     .jcol {
+         padding-left: 50px;
+         padding-right: 50px;
+     }
+
+     .footcolone {
+         text-align: center;
+     }
+     .footcoltwo{
+         text-align: center;
+     }
+     .sbar {
+         font-size: 40px;
+     }
+     
+ 
+
+
+}

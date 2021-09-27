@@ -1,0 +1,13 @@
+.sbar {
+  
+    font-size: 40px;
+    color: white;
+
+}
+
+.sbar :hover{
+  
+    font-size: 50px;
+    color: rgb(212, 22, 212);
+ }
+ 
