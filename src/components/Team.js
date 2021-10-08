@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 import yellowsoccer from "../assets/img/yellowsoccer.jpg"
 import greensoccer from "../assets/img/greensoccer.jpg"
 import bluesoccer from "../assets/img/bluesoccer.jpg"
+import rob from "../assets/img/rob.png"
 
-import {Card } from 'react-bootstrap'
+import {Card, ResponsiveEmbed } from 'react-bootstrap'
 
 
 export default class Team extends Component {
@@ -16,7 +17,7 @@ export default class Team extends Component {
                         <h5 className="section-title h1">OUR TEAM</h5>
                         <div className="row text-center">
                             {/* <!-- Team member --> */}
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 py-5">
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
                                 <Card className="teamcard">
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={yellowsoccer} />
                                     <Card.Body>
@@ -29,7 +30,7 @@ export default class Team extends Component {
                             </div>
                             {/* *<!-- ./Team member -->
             <!-- Team member --> */}
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 py-5">
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
                             <Card className="teamcard">
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={greensoccer} />
                                     <Card.Body>
@@ -44,12 +45,29 @@ export default class Team extends Component {
                             </div>
                             {/* <!-- ./Team member -->
             <!-- Team member --> */}
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 py-5">
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
                             <Card className="teamcard">
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={bluesoccer} />
                                     <Card.Body>
                                         <Card.Title>Ahmed</Card.Title>
                                         <p>Core Team + Finance Manager</p>
+                                        
+                                                                               
+                                    </Card.Body>
+                                </Card>
+
+                            </div>
+                            {/* <!-- ./Team member -->
+            <!-- Team member --> */}
+
+             {/* <!-- ./Team member -->
+            <!-- Team member --> */}
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
+                            <Card className="teamcard">
+                                    <Card.Img variant="top" style={{borderRadius:"5%;"}} src={rob} />
+                                    <Card.Body>
+                                        <Card.Title><h6>AFellaNamedRob</h6></Card.Title>
+                                        <p>Technical mastermind and Sickest dude alive</p>
                                         
                                                                                
                                     </Card.Body>

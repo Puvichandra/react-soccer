@@ -360,9 +360,9 @@ function App() {
                       }
 
                       {saleStarted ?
-                        <h5>Sale is Active</h5>
+                        <h5 style={{paddingTop:"20px"}}>Sale is Active</h5>
                         :
-                        <h5>Sale is not Active</h5>
+                        <h5 style={{paddingTop:"20px"}}>Sale is not Active</h5>
                       }
 
 
