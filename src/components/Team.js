@@ -18,7 +18,7 @@ export default class Team extends Component {
                         <div className="row text-center">
                             {/* <!-- Team member --> */}
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
-                                <Card className="teamcard">
+                                <Card className="teamcard"  style={{borderRadius:"5%"}} >
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={yellowsoccer} />
                                     <Card.Body>
                                         <Card.Title>Genius</Card.Title>
@@ -31,7 +31,7 @@ export default class Team extends Component {
                             {/* *<!-- ./Team member -->
             <!-- Team member --> */}
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
-                            <Card className="teamcard">
+                            <Card className="teamcard" style={{borderRadius:"5%"}} >
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={greensoccer} />
                                     <Card.Body>
                                         <Card.Title>DJH </Card.Title>
@@ -46,10 +46,10 @@ export default class Team extends Component {
                             {/* <!-- ./Team member -->
             <!-- Team member --> */}
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
-                            <Card className="teamcard">
+                            <Card className="teamcard"  style={{borderRadius:"5%"}}>
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={bluesoccer} />
                                     <Card.Body>
-                                        <Card.Title>Ahmed</Card.Title>
+                                        <Card.Title>Defunct</Card.Title>
                                         <p>Core Team + Finance Manager</p>
                                         
                                                                                
@@ -63,11 +63,11 @@ export default class Team extends Component {
              {/* <!-- ./Team member -->
             <!-- Team member --> */}
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
-                            <Card className="teamcard">
-                                    <Card.Img variant="top" style={{borderRadius:"5%;"}} src={rob} />
+                            <Card className="teamcard" style={{borderRadius:"5%"}} >
+                                    <Card.Img variant="top" style={{borderRadius:"5%"}} src={rob} />
                                     <Card.Body>
                                         <Card.Title><h6>AFellaNamedRob</h6></Card.Title>
-                                        <p>Technical mastermind and Sickest dude alive</p>
+                                        <p>Developer (Sickest dude alive)</p>
                                         
                                                                                
                                     </Card.Body>
