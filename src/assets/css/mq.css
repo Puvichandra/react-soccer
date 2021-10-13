@@ -22,8 +22,9 @@
      }
      .footcoltwo {
          text-align: center!important;
+         font-size: 12px;
          padding-bottom:30px;
-        padding-left: 30px;
+       
 
      }
      .sbar {
@@ -64,8 +65,9 @@
      }
      .footcoltwo {
          text-align: center!important;
+         font-size: 12px;
          padding-bottom:30px;
-        padding-left: 30px;
+        
 
      }
      .sbar {
@@ -97,13 +99,26 @@
       
         z-index: 999!important;
         }
-    
+        .footcoltwo{
+            text-align: center;
+            font-size: 16px;
+}
 }
 @media (min-width: 1200px) {
     .jcol {
         padding-left: 0px;
         padding-right: 0px;
     }
+    .footcoltwo{
+        text-align: center;
+        font-size: 16px;
+}
+.teamcard {
+    margin:30px auto 30px auto;
+    border-radius: "5%";
+    width:18rem;
+ }
+
 }
 
 
@@ -132,6 +147,7 @@
      }
      .footcoltwo{
          text-align: center;
+         font-size: 16px;
      }
      .sbar {
          font-size: 40px;

@@ -17,7 +17,7 @@ export default class Team extends Component {
                         <h5 className="section-title h1">OUR TEAM</h5>
                         <div className="row text-center">
                             {/* <!-- Team member --> */}
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 py-5">
                                 <Card className="teamcard"  style={{borderRadius:"5%"}} >
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={yellowsoccer} />
                                     <Card.Body>
@@ -30,7 +30,7 @@ export default class Team extends Component {
                             </div>
                             {/* *<!-- ./Team member -->
             <!-- Team member --> */}
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 py-5">
                             <Card className="teamcard" style={{borderRadius:"5%"}} >
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={greensoccer} />
                                     <Card.Body>
@@ -45,7 +45,7 @@ export default class Team extends Component {
                             </div>
                             {/* <!-- ./Team member -->
             <!-- Team member --> */}
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 py-5">
                             <Card className="teamcard"  style={{borderRadius:"5%"}}>
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={bluesoccer} />
                                     <Card.Body>
@@ -62,7 +62,7 @@ export default class Team extends Component {
 
              {/* <!-- ./Team member -->
             <!-- Team member --> */}
-                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-5">
+                            <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 py-5">
                             <Card className="teamcard" style={{borderRadius:"5%"}} >
                                     <Card.Img variant="top" style={{borderRadius:"5%"}} src={rob} />
                                     <Card.Body>
