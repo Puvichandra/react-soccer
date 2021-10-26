@@ -354,7 +354,7 @@ function App() {
                     <div className="text-center my-auto mx-auto">
                       {!signedIn ?
 
-                        <Button onClick={signIn} variant="outline-danger" style={{ borderRadius: "20px", fontSize: '15px', fontWeight: 'bold' }} >Connect Wallet with Metamask</Button>
+                        <Button onClick={signIn} variant="outline-danger" style={{ marginLeft:"30px",marginRight:"30px", borderRadius: "20px", fontSize: '15px', fontWeight: 'bold' }} >Connect Wallet with Metamask</Button>
                         :
                         <h5> Wallet is Connected </h5>
                       }
