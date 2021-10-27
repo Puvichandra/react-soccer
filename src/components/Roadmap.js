@@ -27,7 +27,7 @@ export default class Roadmap extends Component {
     {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
     <div style={{textAlign: this.props.someBoolean ? "center" : "left"}}> 
     <p>•	Design the NFT’s and have them ready for launch</p>
-    <p>•	Marketing from influencers pre mint date (DATE)</p>
+    <p>•	Marketing from influencers <strong>launch date (14 Nov 21)</strong></p>
     <p>•	Start trading on OpenSea.</p>
     <p>•	Apply for a rarity checker website.</p>
     <p>•	Mint all 10,000 NFT’s</p>

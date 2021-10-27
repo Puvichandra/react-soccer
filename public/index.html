@@ -30,7 +30,7 @@
 <script
   src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
   crossorigin></script>
-  <script>
+  <!-- <script>
     var host = "www.soccerpunknft.com";
     var sechost="soccerpunknft.com";
     
@@ -40,7 +40,7 @@
     window.location.protocol = "https";
     }
   }
-    </script>
+    </script> -->
 
 <script>var Alert = ReactBootstrap.Alert;</script>
     <!--
@@ -71,6 +71,45 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     --></div>
+ <script>
+  var intervalId = null; 
+  var x= function setCountdown(){ 
+    //alert("Hello");
+    const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
 
+      const utcDate1launch = new Date(Date.UTC(2021, 10, 14, 19, 0, 0)).getTime();
+      //console.log(new Date(Date.UTC(2021, 9, 27, 20, 56, 0)));
+      
+       //console.log("dd",utcDate1launch);
+       var date = new Date(); 
+       var now_utc = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(),
+      date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds())).getTime();
+      //console.log("now",now_utc);
+      distance =  utcDate1launch-now_utc;
+      //console.log(distance);
+      //const now = new Date().getTime()
+     
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+      //do something later when date is reached
+      if (distance < 0) {
+        bl=true;
+        document.getElementById("headline").style.display = "none";
+        document.getElementById("countdown").style.display = "none";
+        document.getElementById("content").style.display = "none";
+        clearInterval(intervalId);
+      }
+   };
+
+   intervalId=setInterval(x,0);
+ 
+ </script>
   </body>
 </html>

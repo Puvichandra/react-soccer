@@ -12,6 +12,7 @@ import Fbottom from './components/Fbottom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logoimg from "../src/assets/img/logosoccer.jpg"
 import '../src/assets/css/mq.css'
+import '../src/assets/css/timers.css'
 //import Navbarcompoent from './components/Navbarcompoent';
 import { Container, Jumbotron, Row, Col, Button, Card, InputGroup, Navbar, Nav } from 'react-bootstrap';
 import bigInt from 'big-integer';
@@ -59,11 +60,8 @@ function App() {
 
   const [show, setShow] = useState(false)
   const [clicks, setClicks] = useState(1)
-
-
-
-
-
+ 
+ 
 
   async function signIn() {
     let eInject=false;
@@ -278,7 +276,7 @@ function App() {
 
 
             <Col xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ offset: 2, span: 5 }} style={{ textAlign: 'left' }}>
-              <h3 className="mt-5" style={{ paddingTop: "50px" }}>
+              <h3 className="mt-3 mb-5" style={{ paddingTop: "50px" }}>
                 G O A L !!!!
               </h3>
 
@@ -290,6 +288,23 @@ function App() {
               </h1>
 
               <Button variant="primary" className="mt-3 text-center px-5 " style={{ borderRadius: "20px" }} href="#Mint"> Mint </Button>
+
+              <div class="container timer me-auto pt-4 ">
+                <p id="headline" class=" text-left ps-2 " >Launch Countdown</p>
+                <div id="countdown">
+                  <ul id="uld">
+                    <li><span id="days"></span>days</li>
+                    <li><span id="hours"></span>Hrs</li>
+                    <li><span id="minutes"></span>Min</li>
+                    <li><span id="seconds"></span>Sec</li>
+                  </ul>
+                </div>
+                <div id="content" class="emoji">
+                  <span>🥳</span>
+                  <span>🎉</span>
+                  <span>🎂</span>
+                </div>
+              </div>
 
             </Col>
             <Col className="py-5" xs={{ span: 12 }} sm={{ span: 12 }} md={{ span: 12 }} lg={{ span: 4 }} style={{ textAlign: 'left' }}>
